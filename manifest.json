@@ -1,0 +1,13 @@
+{
+    "name": "your plugin name",
+    "version": "1.0",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": ["https://intra.epitech.eu/*"],
+            "css": ["style.css"],
+            "js": ["jquery-3.6.0.slim.min.js", "script.js"]
+        }
+    ],
+    "permissions": ["activeTab"]
+}
